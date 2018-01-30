@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace BetfairBot
 {
-    class Program
+    class Betfair
     {
-        static void Main(string[] args)
+        public void Connect()
         {
-            var betfair = new Betfair();
-            betfair.Connect();
-            Console.ReadLine();
+            Console.WriteLine("Connecting to Betfair...");
         }
     }
 }
