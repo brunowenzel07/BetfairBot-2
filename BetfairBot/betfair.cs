@@ -11,6 +11,7 @@ namespace BetfairBot
         public void Connect()
         {
             Console.WriteLine("Connecting to Betfair...");
+            Console.WriteLine("Pulling Data...");
         }
     }
 }
